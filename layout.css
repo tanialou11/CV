@@ -1,0 +1,556 @@
+body {
+    
+    background-color: #F7F4EE;
+
+}
+
+hr {
+width:50% ;
+text-align: left;
+margin-left: 10;
+text-align: center;
+/*<hr style="width:50%;text-align:left;margin-left:10">*/
+
+
+}
+/*----------------------------------------------------------------*/
+.header {
+
+     color: #03283E;
+   text-align: left;
+   margin-top: 300px;
+  margin-left: 40px;
+  font-size: 30px;
+
+  padding-right: 10px;
+  padding-inline: 100px;
+  padding-bottom: 20px;
+  display: block;
+/*  margin-bottom: -200px;*/
+}
+
+/*----------------------------------------------------------------*/
+.img {
+  float: right;
+/*  padding-right: 700px;*/
+  /*text-align: right;
+  padding-inline: 20px;
+  size: 33px;
+  border-radius: 50%;*/
+/*    float: right;*/
+    padding-right: 20px; /* Adjust the padding as needed */
+    border-radius: 50%;
+    margin-top: -300px;
+  }
+/*----------------------------------------------------------------*/
+
+.NavigationBar div {
+
+  position: fixed;
+  top: 0;
+  float: left;
+}
+
+nav.sticky {
+  position: sticky;
+}
+
+ul li.NavigationBar {
+
+  display: inline ;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+
+}
+
+.NavigationBar ul {
+
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */ 
+  position: sticky;
+  top: 0;
+}
+
+.NavigationBar nav {
+   display: flex;
+   position: sticky;
+   top:0;
+   width: 100%;
+   overflow: auto;
+   height: auto;
+
+}
+
+
+.NavigationBar div {
+  position: fixed;
+  top: 0;
+
+
+  
+}
+
+/*----------------------------------------------------------------*/
+
+.youcan {
+ color: white;
+ background-color: #03283E ;
+ text-align: center;
+ border-radius: 30%;
+
+
+}
+.contactbar
+{
+
+       
+  text-align: center;
+  font-size: 20px;
+  
+}
+/*----------------------------------------------------------------*/
+
+.aboutme {
+
+    text-align: center;
+   font-weight: bold;
+   font-size: 25px;
+}
+
+.aboutmetext {
+
+   text-align: center;
+   font-size: 21px;
+
+}
+
+/*----------------------------------------------------------------*/ 
+
+
+.education .education_title {
+  font-size:24px ;
+    text-align: left;
+  font-weight: bold;
+
+
+          width: 300px;  /* Adjust the width */
+            height: 50px; /* Adjust the height */
+            background-color: #03283E; /* Background color */
+            transform: skew(-20deg); /* Skew to create the parallelogram */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px; /* Adjust font size */
+            color: white; /* Text color */
+            margin: 50px auto; /* Center the shape horizontally */
+            margin-left: 30px;
+}
+
+.education .education1 {
+    text-align: left;
+  font-size: 23px;
+  margin-left: 30px;
+
+}
+/*----------------------------------------------------------------*/
+ /* text-align: right;
+    float: right;
+  text-align-last: right;
+  padding-left: 0.1px;
+  padding-inline: 10px;
+  display: block;
+  margin-top: -210px;
+  font-size:25px ;
+  padding-left: 0.10px;
+  padding-inline: -30px;
+  display: block;
+  margin-top: 0.1px;
+*/
+    .languages {
+    
+  
+
+  text-align: right;
+    float: right;
+  text-align-last: right;
+  padding-left: 0.1px;
+  padding-inline: 10px;
+  display: block;
+  margin-top: -210px;
+  margin-bottom: -100px;
+  vertical-align:80%;
+  transform: translateY(50%);
+  
+
+    }
+
+
+
+.languages .languages_title {
+
+   
+/*    font-size:27px ;*/
+/*    text-align: right;*/
+  font-weight: bold;
+  text-align-last: right ;
+  padding-left: 0.20px;
+  padding-inline: -1000px;
+/*  display: block;*/
+  /*margin-top: 0.1px;
+  margin-left: 10px;*/
+
+width: 300px;  /* Adjust the width */
+            height: 50px; /* Adjust the height */
+            background-color: #03283E; /* Background color */
+            transform: skew(-20deg); /* Skew to create the parallelogram */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px; /* Adjust font size */
+            color: white; /* Text color */
+            margin: 50px auto; /* Center the shape horizontally */
+            margin-right: 30px;
+           /* transform: translateX(-2vw);
+    display: inline-block*/;
+/*  vertical-align:500%;*/
+
+   margin-top: -50px;
+    vertical-align:100%;
+
+    /*font-size:27px ;
+    text-align: right;
+  font-weight: bold;
+  text-align-last: right ;
+  padding-left: 0.20px;
+  padding-inline: -50px;
+  display: block;
+  margin-top: 0.1px;
+  margin-left: 10px;
+  transform: translateX(-2vw);
+    display: inline-block;
+  vertical-align:90%;
+*/
+
+}
+.languages .languages_list {
+    text-align: right;
+/*    float: right;*/
+    font-size: 23px;
+    text-align-last: right;
+    padding-right: 0.10px;
+    padding-inline: -30px;
+    display: block;
+    margin-top: 0.1px;
+
+
+}
+
+
+
+.languages ul.languages_list {
+
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     text-align: left;
+    float: left;
+    font-size: 23px;
+    text-align-last: left;  /*important*/
+    padding-left: 50px;
+    padding-inline: 100px;
+    display: block;
+    margin-top: 1px;
+    vertical-align:80%;
+    margin-left: -100px;
+    margin-top: -15px;
+
+}
+
+/*--------------------------------------------------------------*/
+
+
+.skills_highlights {
+}
+.skills_highlights .skills_highlights_title {
+
+    font-size:24px ;
+    text-align: left;
+  font-weight: bold;
+
+
+         width: 300px;  /* Adjust the width */
+            height: 50px; /* Adjust the height */
+            background-color: #03283E; /* Background color */
+            transform: skew(-20deg); /* Skew to create the parallelogram */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px; /* Adjust font size */
+            color: white; /* Text color */
+            margin: 50px auto; /* Center the shape horizontally */
+            margin-left: 30px;
+
+}
+.skills_highlights .skills_highlights_list {
+  margin-top: -40px;
+}
+
+.skills_highlights .skills_highlights_list li {
+   
+   text-align: left;
+  font-size: 23px;
+  list-style-type: none;
+/*  margin-top: 10px;*/
+}
+
+
+
+/*----------------------------------------------------------------*/
+.technical_skills {
+    text-align: right;
+    float: right;
+  text-align-last: right;
+  padding-left: 0.1px;
+  padding-inline: 10px;
+  display: block;
+  margin-top: -152px;
+
+}
+
+
+.technical_skills .technical_skills_title {
+
+   font-size:25px ;
+    text-align: right;
+  font-weight: bold;
+  text-align-last: right;
+  padding-left: 0.10px;
+  padding-inline: -30px;
+  display: block;
+  margin-top: 0.1px;
+
+
+
+    width: 300px;  /* Adjust the width */
+            height: 50px; /* Adjust the height */
+            background-color: #03283E; /* Background color */
+            transform: skew(-20deg); /* Skew to create the parallelogram */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px; /* Adjust font size */
+            color:white; /* Text color */
+            margin: 50px auto; /* Center the shape horizontally */
+            margin-right: 30px;
+
+    vertical-align:100%;
+    margin-top: -100px;
+ 
+}
+
+.technical_skills .technical_skills_list {
+   text-align: right;
+/*    float: right;*/
+    font-size: 23px;
+    text-align-last: right;
+    padding-right: 0.10px;
+    padding-inline: -30px;
+    display: block;
+    
+   
+
+}
+
+.technical_skills ul.technical_skills_list  {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     text-align: left;
+    float: left;
+    font-size: 23px;
+    text-align-last: left;  /*important*/
+    padding-left: 50px;
+    padding-inline: 100px;
+    display: block;
+    
+    margin-top: -40px;
+    }
+
+
+/*----------------------------------------------------------------*/
+
+
+.experience .experience_title{
+font-size:24px ;
+    text-align: left;
+  font-weight: bold;
+
+
+  width: 300px;  /* Adjust the width */
+            height: 50px; /* Adjust the height */
+            background-color: #03283E; /* Background color */
+            transform: skew(-20deg); /* Skew to create the parallelogram */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px; /* Adjust font size */
+            color: white; /* Text color */
+            margin: 50px auto; /* Center the shape horizontally */
+            margin-left: 30px;
+
+}
+
+.experience .experience_list{
+   text-align: left;
+  font-size: 23px;
+   list-style-type: none;
+   margin-top: -40px;
+
+
+}
+
+/*----------------------------------------------------------------*/
+
+    .certifications .certifications_title  {
+      font-size:24px ;
+        text-align: left;
+      font-weight: bold;
+
+          width: 300px;  /* Adjust the width */
+            height: 50px; /* Adjust the height */
+            background-color: #03283E; /* Background color */
+            transform: skew(-20deg); /* Skew to create the parallelogram */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px; /* Adjust font size */
+            color: white; /* Text color */
+            margin: 50px auto; /* Center the shape horizontally */
+            margin-left: 30px;
+
+    }
+    .certifications .certifications_list {
+       text-align: left;
+  font-size: 23px;
+  list-style-type: none;
+   margin-top: -40px;
+      
+    }
+/*----------------------------------------------------------------*/
+
+
+a:link, a:visited {
+  background-color: #A8C8CC;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: inherit;
+  display: inline-flex;
+
+}
+
+a:hover, a:active {
+  background-color: #5D7275;
+
+}
+
+
+/*----------------------------------------------------------------*/
+
+.contactme {
+  color: #03283e;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+    padding-left: 20px;
+    border-left: 6px solid #03283e;
+    margin-left: 10px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+
+    width: 150px;
+  height: 50px;
+/*  background-color: red;*/
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes example {
+  0%   {background-color:grey; left:0px; top:0px;}
+  25%  {background-color:lightgrey; left:200px; top:0px;} }
+
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #03283e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5D7275;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #aeb9c1;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------------------*/
+
+
+#subject {
+ height:200px;
+}
+
+/*----------------------------------------------------------------*/
+
+
+.Arabic {
+  color: #5D7275;
+  text-align: center;
+  font-size: 25px;
+
+}
