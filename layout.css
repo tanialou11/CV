@@ -1,3 +1,4 @@
+@media screen and (min-width: 320px) {
 body {
     
     background-color: #F7F4EE;
@@ -38,9 +39,11 @@ text-align: center;
   size: 33px;
   border-radius: 50%;*/
 /*    float: right;*/
-    padding-right: 20px; /* Adjust the padding as needed */
+    padding-right: -20px; /* Adjust the padding as needed */
     border-radius: 50%;
     margin-top: -300px;
+    width: 40%;
+    float: right;
   }
 /*----------------------------------------------------------------*/
 
@@ -91,9 +94,10 @@ ul li.NavigationBar {
 }
 
 
-.NavigationBar div {
+.NavigationBar {
   position: fixed;
   top: 0;
+  float: left;
 
 
   
@@ -186,7 +190,7 @@ ul li.NavigationBar {
   padding-left: 0.1px;
   padding-inline: 10px;
   display: block;
-  margin-top: -210px;
+  margin-top: -205px;
   margin-bottom: -100px;
   vertical-align:80%;
   transform: translateY(50%);
@@ -548,9 +552,11 @@ input[type=submit]:hover {
 /*----------------------------------------------------------------*/
 
 
-.Arabic {
+/*.Arabic {
   color: #5D7275;
   text-align: center;
   font-size: 25px;
+
+}*/ 
 
 }
